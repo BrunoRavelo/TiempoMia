@@ -10,9 +10,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <style>
     :root{
-      --primary-light: #f7ddbe;
-      --primary: #fa9964;
-      --primary-dark: #b94303;
+      --primary-light: #ffa7a7fe;
+      --primary: #ca9a93;
+      --primary-dark: #ffffff;
     }
     body {
       font-family: sans-serif;
@@ -25,16 +25,12 @@
     /* Hero */
     .hero {
       background: url('img1.jpg') center/cover no-repeat;
-      color: white;
+      color: black;
       text-align: center;
       padding: 8rem 1rem;
       position: relative;
     }
-    .hero::before {
-      content: '';
-      position: absolute; top:0;left:0;width:100%;height:100%;
-      background: rgba(0,0,0,0.4);
-    }
+    
     .hero .container { position: relative; z-index:2; }
     .hero h1 { font-size: 3rem; animation: fadeInDown 1s; }
     .hero .btn-cta { margin-top:1rem; animation: fadeInUp 1s; }
